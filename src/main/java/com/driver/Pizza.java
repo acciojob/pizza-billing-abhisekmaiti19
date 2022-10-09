@@ -54,7 +54,7 @@ public class Pizza {
                 isrun2 = true;
             } else {
                 this.price = this.price + 120;
-                this.bill += "Extra Cheese Added: 120\n";
+                this.bill += "Extra Toppings Added: 120\n";
                 isrun2 = true;
             }
         }
