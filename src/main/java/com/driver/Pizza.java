@@ -9,6 +9,7 @@ public class Pizza {
     private Boolean isrun1 = false;
     private Boolean isrun2 =  false;
     private Boolean isrun3 = false;
+    private Boolean isrun4 = false;
 
 
 
@@ -70,7 +71,11 @@ public class Pizza {
 
     public String getBill(){
         // your code goes here
-        this.bill += "Total Price: "+this.price;
+        if(isrun4 == false) {
+            this.bill += "Total Price: " + this.price;
+            isrun4 = true;
+
+        }
         return this.bill;
     }
 }
