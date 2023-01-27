@@ -18,19 +18,19 @@ public class DeluxePizza extends Pizza {
 
     }
 
-    @Override
-    public void addExtraCheese() {
-        if(isExtraCheese == false) {
-            super.addExtraCheese();
-        }
-    }
-
-    @Override
-    public void addExtraToppings() {
-        if(isExtraTopping == false) {
-            super.addExtraCheese();
-        }
-    }
+//    @Override
+//    public void addExtraCheese() {
+//        if(isExtraCheese == false) {
+//            super.addExtraCheese();
+//        }
+//    }
+//
+//    @Override
+//    public void addExtraToppings() {
+//        if(isExtraTopping == false) {
+//            super.addExtraCheese();
+//        }
+//    }
 
 
 }
